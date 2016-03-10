@@ -24,6 +24,6 @@
         <ivy:publish resolver="local" overwrite="true" pubrevision="${build.version.full}">
             <artifacts pattern="target/[artifact]-${build.version.full}(-[classifier]).[ext]" />
         </ivy:publish>
-    </target>
+    </target> 
 
 </project>
